@@ -1,0 +1,19 @@
+# Build output
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.mvn/
+
+# Data (real sales data, not shared). Leading slash: only the root folder,
+# not the com/mlproject/data package
+/data/
+*.xlsx
+
+# Reports and OS files
+*.pdf
+.DS_Store
+Thumbs.db
