@@ -56,6 +56,7 @@ src/main/java/com/mlproject/
 ├── evaluation/Evaluator          eğitim/test ayrımı
 └── gui/MainFrame                 Swing arayüzü
 src/test/java/com/mlproject/      birim testleri
+examples/sample-sales.xlsx        uygulamayı denemek için küçük, uydurma veri seti
 ```
 
 İki algoritma da `IClassifier` arayüzünü uygular ve `BaseAlgorithm` sınıfından türer, böylece doğruluk ve karışıklık matrisi kodu ortak kullanılır. Yeni bir algoritma eklemek için yalnızca `train()` ve `predict()` yazmak yeterlidir.
@@ -68,7 +69,7 @@ Gereksinimler: JDK 21 veya üstü ve Maven.
 2. `Main.java` dosyasını çalıştırın.
 3. Bir Excel dosyası seçin, algoritmayı ve parametresini belirleyip **Modeli Çalıştır** düğmesine basın.
 
-Excel dosyasında şu sütunlar bulunmalıdır: `CLIENTCODE`, `GENDER`, `AMOUNT`, `PRICE`, `LINENETTOTAL`, `BRAND`, `CATEGORY_NAME1`. Yukarıda kullanılan veri seti gerçek satış verisi olduğu için bu depoda yer almıyor.
+Excel dosyasında şu sütunlar bulunmalıdır: `CLIENTCODE`, `GENDER`, `AMOUNT`, `PRICE`, `LINENETTOTAL`, `BRAND`, `CATEGORY_NAME1`. Yukarıdaki sonuçlar için kullanılan veri seti gerçek satış verisi olduğu için bu depoda yer almıyor. Uygulamayı denemek için `examples/sample-sales.xlsx` dosyasını kullanabilirsiniz: aynı sütunlara sahip, 600 uydurma satır (kurgusal marka ve müşteriler). Bu dosyadaki doğruluk değerleri yukarıdaki tabloyla karşılaştırılamaz.
 
 ## Testler
 

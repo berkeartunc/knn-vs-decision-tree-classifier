@@ -56,6 +56,7 @@ src/main/java/com/mlproject/
 ├── evaluation/Evaluator          train/test split
 └── gui/MainFrame                 Swing UI
 src/test/java/com/mlproject/      unit tests
+examples/sample-sales.xlsx        small made-up dataset to try the app
 ```
 
 Both algorithms implement `IClassifier` and extend `BaseAlgorithm`, so the accuracy and confusion matrix code is shared. A new algorithm only needs `train()` and `predict()`.
@@ -68,7 +69,7 @@ Requirements: JDK 21 or newer and Maven.
 2. Run `Main.java`.
 3. Select an Excel file, choose an algorithm and its parameter, and click **Modeli Çalıştır** (Run model).
 
-The Excel file needs these columns: `CLIENTCODE`, `GENDER`, `AMOUNT`, `PRICE`, `LINENETTOTAL`, `BRAND`, `CATEGORY_NAME1`. The dataset used above is real sales data, so it is not included in this repository.
+The Excel file needs these columns: `CLIENTCODE`, `GENDER`, `AMOUNT`, `PRICE`, `LINENETTOTAL`, `BRAND`, `CATEGORY_NAME1`. The dataset used for the results above is real sales data, so it is not included in this repository. To try the app, use `examples/sample-sales.xlsx`: 600 made-up rows with the same columns (fictional brands and customers). The accuracy on this file is not comparable to the table above.
 
 ## Tests
 

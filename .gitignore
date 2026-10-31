@@ -12,6 +12,8 @@ target/
 # not the com/mlproject/data package
 /data/
 *.xlsx
+# ...except the small made-up sample file
+!/examples/sample-sales.xlsx
 
 # Reports and OS files
 *.pdf
