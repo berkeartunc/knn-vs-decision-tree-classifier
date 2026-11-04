@@ -1,5 +1,7 @@
 # KNN vs Decision Tree Classifier
 
+![CI](https://github.com/berkeartunc/knn-vs-decision-tree-classifier/actions/workflows/ci.yml/badge.svg)
+
 [English](README.md)
 
 Gerçek perakende satış verisini kullanarak bir müşterinin hangi ürün kategorisinden alışveriş yaptığını tahmin eden bir Java masaüstü uygulaması. Herhangi bir makine öğrenmesi kütüphanesi kullanmadan sıfırdan yazdığım iki sınıflandırıcıyı karşılaştırır: **K-En Yakın Komşu (KNN)** ve **Karar Ağacı**.
