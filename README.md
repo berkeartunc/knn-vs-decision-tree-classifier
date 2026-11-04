@@ -1,5 +1,7 @@
 # KNN vs Decision Tree Classifier
 
+![CI](https://github.com/berkeartunc/knn-vs-decision-tree-classifier/actions/workflows/ci.yml/badge.svg)
+
 [Türkçe](README.tr.md)
 
 A Java desktop app that predicts which product category a customer buys from, using real retail sales data. It compares two classifiers that I wrote from scratch, without any machine learning library: **K-Nearest Neighbors (KNN)** and a **Decision Tree**.
